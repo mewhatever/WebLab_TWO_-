@@ -1,0 +1,342 @@
+2024-10-14T06:45:28.175Z [debug] [main] Safe constructing new CMakeProject instance
+2024-10-14T06:45:28.176Z [debug] [variant] Constructing VariantManager
+2024-10-14T06:45:28.177Z [debug] [main] Constructing new CMakeProject instance
+2024-10-14T06:45:28.177Z [debug] [main] Starting CMake Tools second-phase init
+2024-10-14T06:45:28.177Z [debug] [expand] expanded ${workspaceFolder}
+2024-10-14T06:45:28.179Z [debug] [kit] Not reading non-existent kits file: /Users/mohaiminul/.local/share/CMakeTools/cmake-tools-kits.json
+2024-10-14T06:45:28.180Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:45:28.212Z [info] [variant] Loaded new set of variants
+2024-10-14T06:45:28.214Z [debug] [main] CMakeProject instance initialization complete.
+2024-10-14T06:45:28.219Z [info] [kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+2024-10-14T06:45:28.219Z [debug] [kitsController] Rescanning for kits
+2024-10-14T06:45:28.220Z [debug] [kit] Scanning for Kits on system
+2024-10-14T06:45:28.220Z [debug] [kit] Skipping scan of not existing path /usr/local/bin
+2024-10-14T06:45:28.220Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2024-10-14T06:45:28.220Z [debug] [kit] Scanning directory /usr/bin for compilers
+2024-10-14T06:45:28.220Z [debug] [kit] Scanning directory /System/Cryptexes/App/usr/bin for compilers
+2024-10-14T06:45:28.220Z [debug] [kit] Scanning directory /bin for compilers
+2024-10-14T06:45:28.220Z [debug] [kit] Scanning directory /usr/sbin for compilers
+2024-10-14T06:45:28.221Z [debug] [kit] Scanning directory /sbin for compilers
+2024-10-14T06:45:28.221Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2024-10-14T06:45:28.221Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2024-10-14T06:45:28.221Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2024-10-14T06:45:28.221Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2024-10-14T06:45:28.221Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2024-10-14T06:45:28.221Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2024-10-14T06:45:28.221Z [debug] [kit] Skipping scan of not existing path undefined\LLVM\bin
+2024-10-14T06:45:28.221Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2024-10-14T06:45:28.221Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw64\bin
+2024-10-14T06:45:28.221Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw64\bin
+2024-10-14T06:45:28.221Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang32\bin
+2024-10-14T06:45:28.221Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang32\bin
+2024-10-14T06:45:28.221Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang64\bin
+2024-10-14T06:45:28.221Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang64\bin
+2024-10-14T06:45:28.222Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clangarm64\bin
+2024-10-14T06:45:28.222Z [debug] [kit] Found 0 kits in directory undefined\msys64\clangarm64\bin
+2024-10-14T06:45:28.222Z [debug] [kit] Skipping scan of not existing path undefined\msys64\ucrt64\bin
+2024-10-14T06:45:28.222Z [debug] [kit] Found 0 kits in directory undefined\msys64\ucrt64\bin
+2024-10-14T06:45:28.222Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw32\bin
+2024-10-14T06:45:28.222Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw32\bin
+2024-10-14T06:45:28.232Z [debug] [kit] Found 0 kits in directory /System/Cryptexes/App/usr/bin
+2024-10-14T06:45:28.233Z [debug] [kit] Found 0 kits in directory /sbin
+2024-10-14T06:45:28.233Z [debug] [kit] Found 0 kits in directory /bin
+2024-10-14T06:45:28.238Z [debug] [kit] Found 0 kits in directory /usr/sbin
+2024-10-14T06:45:28.240Z [debug] [kit] Testing Clang binary: /usr/bin/clang
+2024-10-14T06:45:28.241Z [info] [proc] Executing command: /usr/bin/clang -v
+2024-10-14T06:45:28.243Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-10-14T06:45:28.244Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-10-14T06:45:28.247Z [debug] [kit] Testing GCC binary: /usr/bin/llvm-gcc
+2024-10-14T06:45:28.247Z [info] [proc] Executing command: /usr/bin/llvm-gcc -v
+2024-10-14T06:45:28.269Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2024-10-14T06:45:28.270Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2024-10-14T06:45:28.270Z [debug] [kit] Bad GCC binary. "/usr/bin/llvm-gcc -v" reports version:  output: Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+2024-10-14T06:45:28.271Z [debug] [kit] Bad GCC binary. "/usr/bin/gcc -v" reports version:  output: Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+2024-10-14T06:45:28.271Z [debug] [kit] Found 1 kits in directory /usr/bin
+2024-10-14T06:45:28.271Z [info] [kit] Found Kit (trusted): Clang 14.0.3 arm64-apple-darwin22.6.0
+2024-10-14T06:45:28.272Z [debug] [kitsController] Saving kits to /Users/mohaiminul/.local/share/CMakeTools/cmake-tools-kits.json
+2024-10-14T06:45:28.272Z [debug] [kitsController] Saving new kits to /Users/mohaiminul/.local/share/CMakeTools/cmake-tools-kits.json
+2024-10-14T06:45:28.275Z [debug] [extension] Configuring workspace on open /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+2024-10-14T06:45:28.276Z [debug] [kitsController] Start selection of kits. Found 3 kits.
+2024-10-14T06:45:28.276Z [debug] [kitsController] Opening kit selection QuickPick
+2024-10-14T06:45:33.106Z [debug] [main] Not starting CMake driver: no kit selected
+2024-10-14T06:45:53.379Z [debug] [kitsController] User cancelled Kit selection
+2024-10-14T06:47:44.897Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.916Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses.h: 
+	YAMLException: end of the stream or a document separator is expected (10:59)
+
+  7 |  ... ghts to use, copy, modify, merge, publish,      *
+  8 |  ... th modifications, sublicense, and/or sell       *
+  9 |  ... nd to permit persons to whom the Software is    *
+ 10 |  ... ct to the following conditions:                 *
+-----------------------------------------^
+ 11 |  ...                                                 *
+ 12 |  ... e and this permission notice shall be included  *
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.916Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.917Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.928Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h: 
+	YAMLException: end of the stream or a document separator is expected (79:1)
+
+ 76 | 
+ 77 | #endif /* (!_POSIX_C_SOURCE &&  ...
+ 78 | 
+ 79 | /*
+------^
+ 80 |  * These symbols indicate which ...
+ 81 |  * They can be tested at compil ...
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.928Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.929Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.938Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread_impl.h: 
+	YAMLException: end of the stream or a document separator is expected (26:1)
+
+ 23 | 
+ 24 | #ifndef _PTHREAD_IMPL_H_
+ 25 | #define _PTHREAD_IMPL_H_
+ 26 | /*
+------^
+ 27 |  * Internal implementation details
+ 28 |  */
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.938Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.939Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.946Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread_spis.h: 
+	YAMLException: end of the stream or a document separator is expected (59:1)
+
+ 56 | #include <pthread/pthread.h>
+ 57 | 
+ 58 | #if __has_feature(assume_nonnull)
+ 59 | _Pragma("clang assume_nonnull b ...
+------^
+ 60 | #endif
+ 61 | __BEGIN_DECLS
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.947Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.947Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.953Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h: 
+	YAMLException: end of the stream or a document separator is expected (30:1)
+
+ 27 | #include <sys/cdefs.h>
+ 28 | #include <pthread/pthread_impl.h>
+ 29 | 
+ 30 | __BEGIN_DECLS
+------^
+ 31 | /*
+ 32 |  * Scheduling paramters
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.953Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.955Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.961Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.961Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tcl.h: 
+	YAMLException: end of the stream or a document separator is expected (16:7)
+
+ 13 |  * See the file "license.terms" for i ...
+ 14 |  * this file, and for a DISCLAIMER OF ...
+ 15 |  *
+ 16 |  * RCS: @(#) $Id: tcl.h,v 1.254.2.16  ...
+------------^
+ 17 |  */
+ 18 | 
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.962Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.968Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tclDecls.h: 
+	YAMLException: end of the stream or a document separator is expected (11:7)
+
+  8 |  * See the file "license.terms" for i ...
+  9 |  * of this file, and for a DISCLAIMER ...
+ 10 |  *
+ 11 |  * RCS: @(#) $Id: tclDecls.h,v 1.130. ...
+------------^
+ 12 |  */
+ 13 | 
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.968Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.969Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.973Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tclPlatDecls.h: 
+	YAMLException: end of the stream or a document separator is expected (9:7)
+
+  6 |  * Copyright (c) 1998-1999 by Scripti ...
+  7 |  * All rights reserved.
+  8 |  *
+  9 |  * RCS: @(#) $Id: tclPlatDecls.h,v 1. ...
+------------^
+ 10 |  */
+ 11 | 
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.974Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.975Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.980Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tclTomMath.h: 
+	YAMLException: end of the stream or a document separator is expected (38:1)
+
+ 35 | #endif
+ 36 | 
+ 37 | #ifdef __cplusplus
+ 38 | extern "C" {
+------^
+ 39 | 
+ 40 | /* C++ compilers don't like ass ...
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.980Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.981Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.986Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tclTomMathDecls.h: 
+	YAMLException: end of the stream or a document separator is expected (14:7)
+
+ 11 |  * See the file "license.terms" for i ...
+ 12 |  * of this file, and for a DISCLAIMER ...
+ 13 |  *
+ 14 |  * RCS: @(#) $Id: tclTomMathDecls.h,v ...
+------------^
+ 15 |  */
+ 16 | 
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.986Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.986Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.992Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tk.h: 
+	YAMLException: end of the stream or a document separator is expected (15:7)
+
+ 12 |  * See the file "license.terms" for i ...
+ 13 |  * this file, and for a DISCLAIMER OF ...
+ 14 |  *
+ 15 |  * RCS: @(#) $Id$
+------------^
+ 16 |  */
+ 17 | 
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:44.992Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:44.993Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:44.999Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tkDecls.h: 
+	YAMLException: end of the stream or a document separator is expected (11:7)
+
+  8 |  * See the file "license.terms" for i ...
+  9 |  * of this file, and for a DISCLAIMER ...
+ 10 |  *
+ 11 |  * RCS: @(#) $Id$
+------------^
+ 12 |  */
+ 13 | 
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:45.000Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:45.004Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:45.010Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tkIntXlibDecls.h: 
+	YAMLException: end of the stream or a document separator is expected (12:7)
+
+  9 |  * Copyright (c) 1998-1999 by Scripti ...
+ 10 |  * All rights reserved.
+ 11 |  *
+ 12 |  * RCS: @(#) $Id$
+------------^
+ 13 |  */
+ 14 | 
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:45.010Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:45.010Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:45.019Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tkMacOSX.h: 
+	YAMLException: end of the stream or a document separator is expected (13:7)
+
+ 10 |  * See the file "license.terms" for i ...
+ 11 |  * of this file, and for a DISCLAIMER ...
+ 12 |  *
+ 13 |  * RCS: @(#) $Id$
+------------^
+ 14 |  */
+ 15 | 
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:45.019Z [info] [variant] Loaded new set of variants
+2024-10-14T06:47:45.019Z [debug] [kit] Not reading non-existent kits file: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/.vscode/cmake-kits.json
+2024-10-14T06:47:45.023Z [error] [variant] Error parsing /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/tkPlatDecls.h: 
+	YAMLException: end of the stream or a document separator is expected (11:7)
+
+  8 |  * See the file "license.terms" for i ...
+  9 |  * of this file, and for a DISCLAIMER ...
+ 10 |  *
+ 11 |  * RCS: @(#) $Id$
+------------^
+ 12 |  */
+ 13 | 
+	at generateError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52509:10)
+	at throwError (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:52513:9)
+	at readDocument (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:53971:5)
+	at loadDocuments (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54014:5)
+	at Object.load (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:54040:19)
+	at VariantManager._reloadVariantsFile (/Users/mohaiminul/.vscode/extensions/ms-vscode.cmake-tools-1.19.52/dist/main.js:112716:41)
+2024-10-14T06:47:45.024Z [info] [variant] Loaded new set of variants
+2024-10-14T06:48:45.341Z [debug] [main] Not starting CMake driver: no kit selected
+2024-10-14T06:59:06.714Z [debug] [extension] Deactivate CMakeTools

@@ -1,16 +1,53 @@
 const express = require('express');
 const app = express();
 const port = 3002;
+
 const tasks = [
-       { id: 1, title: 'Learn Node.js', completed: false },
-       { id: 2, title: 'Build REST API', completed: false }
+  { 
+    id: 1, 
+    title: 'Learn Node.js', 
+    completed: false,
+    priority: 'high',
+    createdAt: new Date('2025-10-01')
+  },
+  { 
+    id: 2, 
+    title: 'Build REST API', 
+    completed: false,
+    priority: 'medium',
+    createdAt: new Date('2025-10-05')
+  },
+  { 
+    id: 3, 
+    title: 'Study Express Router', 
+    completed: true,
+    priority: 'high',
+    createdAt: new Date('2025-10-10')
+  },
+  { 
+    id: 4, 
+    title: 'Test with Postman', 
+    completed: false,
+    priority: 'low',
+    createdAt: new Date('2025-10-15')
+  },
+  { 
+    id: 5, 
+    title: 'Deploy Application', 
+    completed: false,
+    priority: 'medium',
+    createdAt: new Date('2025-10-20')
+  }
 ];
+
 app.get('/', (req, res) => {
-       res.send('Task Management API is running!');
+  res.send('Task Management API is running!');
 });
+
 app.get('/tasks', (req, res) => {
-       res.json(tasks);
+  res.json(tasks);
 });
+
 app.listen(port, () => {
-       console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port}`);
 });

@@ -18,7 +18,7 @@ A RESTful API built with Node.js and Express for managing tasks.
 
 3. Run the server:
 
-4. The server will start at `http://localhost:3000`
+4. The server will start at `http://localhost:3002`
 
 ## Project Structure
 
@@ -53,12 +53,12 @@ A RESTful API built with Node.js and Express for managing tasks.
 1. Start the server with `npm start`
 2. Open Postman
 3. Test each endpoint:
-   - GET `http://localhost:3000/`
-   - GET `http://localhost:3000/health`
-   - GET `http://localhost:3000/tasks`
-   - GET `http://localhost:3000/task/1`
-   - GET `http://localhost:3000/task/999` (test 404)
-   - GET `http://localhost:3000/task/abc` (test 400)
+   - GET `http://localhost:3002/`
+   - GET `http://localhost:3002/health`
+   - GET `http://localhost:3002/tasks`
+   - GET `http://localhost:3002/task/1`
+   - GET `http://localhost:3002/task/999` (test 404)
+   - GET `http://localhost:3002/task/abc` (test 400)
 
 ## Development
 

@@ -1,118 +1,55 @@
-A RESTful API built with Node.js and Express for managing tasks, developed as part of CSE 362 Web Programming II LAB coursework.
+# Task Manager API
 
-# Task Management API
-
-A RESTful API built with Node.js and Express for managing tasks.
-
-## Prerequisites
-
-- Node.js (v14 or higher)
-- npm (v6 or higher)
-- Postman (for API testing)
+A RESTful API for managing tasks built with Node.js and Express.
 
 ## Setup Instructions
 
-1. Clone the repository:
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (Node Package Manager)
 
-2. Install dependencies:
+### Installation
 
-3. Run the server:
+1. Clone or download the project
+2. Navigate to the project directory:
+3. Install dependencies:
+npm install
 
-4. The server will start at `http://localhost:3000`
 
-## Project Structure
+4. Start the server:
+node server.js
+
+
+5. Server will run on `http://localhost:3002`
 
 ## API Endpoints
 
-### Root Endpoint
-- **GET** `/` - Check if API is running
-  - Response: `"Task Management API is running!"`
+### GET /
+- **Description:** Root endpoint
+- **Response:** Welcome message
 
-### Health Check
-- **GET** `/health` - Check server health and uptime
-  - Response: 
-    ```
-    {
-      "status": "healthy",
-      "uptime": 123.456
-    }
-    ```
+### GET /health
+- **Description:** Check API health status
+- **Response:** `{ "status": "healthy", "uptime": <seconds> }`
 
-### Tasks Endpoints
-- **GET** `/tasks` - Get all tasks
-  - Response: Array of task objects with id, title, completed, priority, and createdAt
+### GET /tasks
+- **Description:** Retrieve all tasks
+- **Response:** Array of task objects with id, title, completed, priority, and createdAt
 
-- **GET** `/task/:id` - Get a single task by ID
-  - Response: Single task object
-  - Error responses:
-    - `400`: Invalid ID format
-    - `404`: Task not found
+### GET /tasks/:id
+- **Description:** Retrieve a single task by ID
+- **Parameters:** `id` (number) - Task ID
+- **Success Response (200):** Task object
+- **Error Responses:**
+- 400: Invalid ID format
+- 404: Task not found
 
-## Testing with Postman
+### POST /tasks
+- **Description:** Create a new task
+- **Body:** `{ "title": "Task title" }`
+- **Success Response (201):** Created task object
+- **Error Response (400):** Title validation error
 
-1. Start the server with `npm start`
-2. Open Postman
-3. Test each endpoint:
-   - GET `http://localhost:3000/`
-   - GET `http://localhost:3000/health`
-   - GET `http://localhost:3000/tasks`
-   - GET `http://localhost:3000/task/1`
-   - GET `http://localhost:3000/task/999` (test 404)
-   - GET `http://localhost:3000/task/abc` (test 400)
+## Testing
 
-## Development
-
-To modify routes, edit files in the `src/routes/` directory.
-
-## License
-
-MIT
-
-task-management/
-├── .git/
-├── .gitignore
-├── README.md
-├── package.json
-├── package-lock.json
-├── node_modules/
-├── tasks-response.json
-├── api-responses.txt
-└── src/
-    ├── index.js
-    └── routes/
-        └── tasks.js
-
-=== API Response Documentation ===
-
-1. GET /health
-Status: 200 OK
-Response:
-{
-  "status": "healthy",
-  "uptime": 45.678
-}
-
-2. GET /task/1
-Status: 200 OK
-Response:
-{
-  "id": 1,
-  "title": "Learn Node.js",
-  "completed": false,
-  "priority": "high",
-  "createdAt": "2025-10-01T00:00:00.000Z"
-}
-
-3. GET /task/999 (Task not found)
-Status: 404 Not Found
-Response:
-{
-  "error": "Task not found"
-}
-
-4. GET /task/abc (Invalid ID format)
-Status: 400 Bad Request
-Response:
-{
-  "error": "Invalid ID format"
-}
+Use Postman or any HTTP client to test the endpoints. Sample requests are documented in `api-responses.txt`.

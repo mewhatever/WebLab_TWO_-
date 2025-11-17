@@ -10,6 +10,9 @@ router.get('/', (req, res) => {
 });
 
 
+module.exports = router;
+
+
 router.post('/', (req, res) => {
   try {
     const { title } = req.body;
@@ -42,5 +45,3 @@ router.post('/', (req, res) => {
   }
 });
 
-
-module.exports = router;

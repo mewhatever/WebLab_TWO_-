@@ -10,9 +10,6 @@ router.get('/', (req, res) => {
 });
 
 
-module.exports = router;
-
-
 router.post('/', (req, res) => {
   try {
     const { title } = req.body;
@@ -25,9 +22,11 @@ router.post('/', (req, res) => {
     }
 
     const newTask = {
-      id: Date.now(), 
+      id: Date.now(),
       title: title.trim(),
-      completed: false
+      completed: false,
+      priority: 'medium',
+      createdAt: new Date()
     };
 
     const tasks = req.app.locals.tasks;
@@ -47,6 +46,8 @@ router.post('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   try {
+    throw new Error('Testing error handling');
+    const { id } = req.params;
     const taskId = parseInt(req.params.id);
     const tasks = req.app.locals.tasks;
     
@@ -71,3 +72,4 @@ router.get('/:id', (req, res) => {
   }
 });
 
+module.exports = router;

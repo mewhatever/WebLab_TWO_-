@@ -46,6 +46,12 @@ app.use(express.json());
 
 const tasksRouter = require('./routes/tasks');
 
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'healthy',
+    uptime: process.uptime()
+  });
+});
 
 app.use('/tasks', tasksRouter);
 

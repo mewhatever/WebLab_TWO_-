@@ -46,9 +46,17 @@ router.post('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   try {
-    throw new Error('Testing error handling');
     const { id } = req.params;
-    const taskId = parseInt(req.params.id);
+    
+    // Validate ID format (must be a number)
+    if (isNaN(id)) {
+      return res.status(400).json({
+        success: false,
+        error: 'Invalid ID format'
+      });
+    }
+    
+    const taskId = parseInt(id);
     const tasks = req.app.locals.tasks;
     
     const task = tasks.find(t => t.id === taskId);

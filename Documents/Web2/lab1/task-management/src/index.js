@@ -1,16 +1,26 @@
 const express = require('express');
 const app = express();
 const port = 3002;
-const tasks = [
-       { id: 1, title: 'Learn Node.js', completed: false },
-       { id: 2, title: 'Build REST API', completed: false }
-];
+
+require('dotenv').config();
+
+app.use(express.json());
+
+const tasksRouter = require('./routes/tasks');
+
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'healthy',
+    uptime: process.uptime()
+  });
+});
+
+app.use('/tasks', tasksRouter);
+
 app.get('/', (req, res) => {
-       res.send('Task Management API is running!');
+  res.send('Task Manager API');
 });
-app.get('/tasks', (req, res) => {
-       res.json(tasks);
-});
+
 app.listen(port, () => {
-       console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port}`);
 });
